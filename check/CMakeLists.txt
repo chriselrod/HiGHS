@@ -34,6 +34,7 @@ set(TEST_SOURCES
     TestInfo.cpp
     TestBasis.cpp
     TestBasisSolves.cpp
+    TestCrossover.cpp
     TestHighsHash.cpp
     TestHighsIntegers.cpp
     TestHighsParallel.cpp
@@ -41,7 +42,9 @@ set(TEST_SOURCES
     TestHighsHessian.cpp
     TestHighsModel.cpp
     TestHSet.cpp
+    TestICrash.cpp
     TestLogging.cpp
+    TestLPFileFormat.cpp
     TestLpValidation.cpp
     TestLpModification.cpp
     TestLpOrientation.cpp
